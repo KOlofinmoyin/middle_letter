@@ -15,7 +15,7 @@ get_middle("A") # => "A"
 get_middle("of") # => "of"
 
 ### INPUT and OUTPUT
-("A") # => "A"
+x - ("A") # => "A"
 ("B") # => "B"
 ("of") # => "of"
 ("as") # => "as"
