@@ -16,4 +16,8 @@ describe '#get_middle' do
   it "takes ('as') and returns 'as'" do
       expect(get_middle('as')).to eq 'as'
   end
+
+  it "takes ('cat') and returns 'a'" do
+    expect(get_middle('cat')).to eq 'a'
+  end
 end
