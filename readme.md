@@ -24,7 +24,7 @@ x - ("of") # => "of"
 x - ("as") # => "as"
 x - ("cat") # => "a"
 x - ("dog") # => "o"
-("testing") # => "t"
 ("test") # => "es"
+("testing") # => "t"
 ("middle") # => "dd"
 ```

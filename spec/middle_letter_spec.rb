@@ -24,4 +24,12 @@ describe '#get_middle' do
   it "takes ('dog') and returns 'o'" do
     expect(get_middle('dog')).to eq 'o'
   end
+
+  it "takes ('testing') and returns 'odd'" do
+    expect(get_middle("testing")).to eq "t"
+  end
+
+  it "takes ('test') and returns 'es'" do
+    expect(get_middle("test")).to eq "es"
+  end
 end
