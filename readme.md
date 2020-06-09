@@ -1,13 +1,12 @@
 # MIDDLE-LETTER
-Get the Middle Letter(s)
+It gets the middle letter(s).
 
 ## Requirements
-The program runs in a REPL like irb or in a browser console.
-It's fine to use Ruby or JavaScript.
-
-Your job is to return the middle letter of a word. If the word's length is odd, return the middle letter.
-
-If the word's length is even, return the middle 2 letters.
+1. The program runs in a REPL like irb or in a browser console.
+2. Written in Ruby.
+3. It returns the middle letter of a word.
+  + when the word's length is odd, it returns the middle letter.
+  + when the word's length is even, it returns the middle 2 letters.
 
 ## Acceptance Criteria
 - get_middle("test") # => "es"
@@ -24,7 +23,7 @@ x - ("of") # => "of"
 x - ("as") # => "as"
 x - ("cat") # => "a"
 x - ("dog") # => "o"
-("test") # => "es"
-("testing") # => "t"
-("middle") # => "dd"
+x - ("test") # => "es"
+x - ("testing") # => "t"
+x - ("middle") # => "dd"
 ```
